@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h1>Agregar instrumento</h1>
+        <form method="post" action="/">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campo</th>
+                        <th>Dato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nombre portador del instrumento</td>  
+                        <td><input type="text" name="NombreVideojuego" id="nombreVideojuego"></td>   
+                    </tr>
+                    <tr>
+                        <td>
+                            Tipo
+                        </td>
+                        <td>
+                            <select name="raza" id="raza">
+                                <option value="1">Guitarra</option>
+                                <option value="2">Piano</option>
+                                <option value="3">Violin</option>
+                                <option value="4">Cello</option>
+                                <option value="5">Flautin</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> cancion que tocara </td>
+                        <td><input type="num" name="desarollador" id="desarollador"></td>  
+                    </tr>
+                    <tr>
+                        <td> Tipo de instrumento </td>
+                        <td><input type="text" name="Jugabilidad" id="Jugabilidad"></td> 
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <form method="get" action="/">
+            <script src="script.js" defer></script>
+        </form>
+    </body>
+</html>
